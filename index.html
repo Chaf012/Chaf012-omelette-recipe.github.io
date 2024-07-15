@@ -3,29 +3,31 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Simple Omelette Recipe</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <meta name="description" content="An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
 
-  <title>Simple Omelette Recipe</title>
-  <link rel="stylesheet" href="style.css">
-
+  <script>document.documentElement.className += ' js';</script>
+  <link rel="stylesheet" href="./css/style.min.css">
 
 </head>
 
 <body>
   <main class="container">
-    <img src="./img/image-omelette.jpeg" alt="Omelette">
+    <img class="js-scroll" src="./img/image-omelette.jpeg" alt="Omelette">
 
-    <div class="introducao-conteudo">
+    <div class="introducao-conteudo js-scroll">
       <h1>Simple Omelette Recipe</h1>
       <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
     </div>
 
-    <div class="prepation-bg">
+    <div class="prepation-bg js-scroll">
       <h3>Preparation time</h3>
       <ul>
         <li><span>Total:</span> Approximately 10 minutes</li>
@@ -34,7 +36,7 @@
       </ul>
     </div>
 
-    <div class="ingredients-bg">
+    <div class="ingredients-bg js-scroll">
       <section>
         <h2>Ingredients</h2>
         <ul>
@@ -47,7 +49,7 @@
       </section>
     </div>
 
-    <div class="instructions-bg">
+    <div class="instructions-bg js-scroll">
       <section>
         <h2>Instructions</h2>
         <ul>
@@ -91,6 +93,8 @@
       Coded by <a href="#">Caio "CHAF" Henrique</a>.
     </div>
   </main>
+
+  <script src="./script.js"></script>
 </body>
 
 </html>
